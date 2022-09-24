@@ -1,0 +1,89 @@
+.con{
+  width: 100vw;
+  background: linear-gradient(rgb(218, 206, 206),rgb(139, 135, 135));
+  min-height: 100vh;
+}
+
+.div-t{
+  width: 100vw;
+  /* min-height: 30%; */
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading{
+  font-size: 4vw;
+}
+
+.search{
+  font-size: 3vw;
+  padding: 1vh 1vw 1vh 1vw;
+  border: 2px solid gray;
+  outline-color: gray;
+  color: rgb(34, 145, 241);
+  text-transform: capitalize;
+}
+
+.btn{
+  font-size: 3vw;
+  padding: 1vh 5vw 1vh 5vw;
+  margin-top: 1vh;
+  color: rgb(102, 176, 241);
+  border: 2px solid rgb(158, 208, 252);
+  transition: background-color 1s linear;
+  border-radius: 2vw;
+  outline-color: rgb(158, 208, 252);
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: rgb(139, 135, 135);
+}
+
+::placeholder{
+  color: rgb(158, 208, 252);
+}
+
+
+.div-b{
+  width: 100vw;
+  /* min-height: 70%; */
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.div-b li{
+  list-style: none;
+}
+ul{
+  padding: 40px;
+  border: 2px solid black;
+  background-color: rgb(102, 176, 241);
+}
+
+
+@media screen and (max-width: 950px) {
+  .div-b{
+    font-size: 7vw;
+  }
+  .btn{
+    font-size: 5vw;
+  padding: 1vh 5vw 1vh 5vw;
+  margin-top: 3vh;
+  }
+  .search{
+    font-size: 5vw;
+  padding: 1.5vh 1.5vw 1.5vh 1.5vw;
+  }
+  .heading{
+    font-size: 7vw;
+  }
+}
